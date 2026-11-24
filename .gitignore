@@ -1,0 +1,40 @@
+# Java y Maven
+/target/
+/build/
+*.class
+*.jar
+
+# Configuración local del IDE
+/.vscode/
+/.idea/
+
+# Material local del informe y evidencias
+/docs/
+/evidencias/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets/
+**/*secret*
+**/*password*
+**/*credential*
+**/*token*
+**/credentials.json
+**/.netrc
+**/.npmrc
+**/.pypirc
+
+# Claves y certificados privados
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
